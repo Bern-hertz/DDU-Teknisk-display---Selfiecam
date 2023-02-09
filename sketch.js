@@ -68,7 +68,6 @@ function takesnap() {
   video.hide()
   select('#counter').html('')
   image(video,0, 0, width, height, 0, 0, image.width, image.height);
-  //image(video, 0, 0);
 }
 
 //en funktion som vil "reset" kameret, den reseter counteren, sætter en background for at skjule det sidste billede og viser webcam igen
